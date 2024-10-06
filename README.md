@@ -17,13 +17,18 @@ Encourage experiential learning by giving users hands-on experience with compari
 By making satellite data accessible and understandable to a wide audience, the platform empowers individuals to explore global environmental changes and become informed global citizens.
 
 # Functionality Breakdown:
-## 1. Location Input: Users can manually input GPS coordinates or use a map interface to pinpoint a specific location on Earth. The application will store these locations for future use and notify users of upcoming Landsat overpasses.
+## 1. Location Input: 
+Users can manually input GPS coordinates or use a map interface to pinpoint a specific location on Earth. The application will store these locations for future use and notify users of upcoming Landsat overpasses.
 
-## 2. Overpass Prediction and Alerts: The system will connect with satellite data APIs to predict the time and date of the next Landsat overpass over the user’s selected location. Users will receive notifications (email or app-based) reminding them of the upcoming satellite pass, so they can prepare for ground-based spectral measurements.
+## 2. Overpass Prediction and Alerts: 
 
-## 3. Data Retrieval: After the overpass, users can quickly access the Landsat SR data captured for their selected location. The data will be displayed on the platform with options for downloading it in formats suitable for further analysis.
+The system will connect with satellite data APIs to predict the time and date of the next Landsat overpass over the user’s selected location. Users will receive notifications (email or app-based) reminding them of the upcoming satellite pass, so they can prepare for ground-based spectral measurements.
 
-## 4. Visualization and Comparison Tools: The platform will include tools for visualizing the Landsat SR data, such as spectral graphs and layered map views. Users can upload their ground-based measurements for direct comparison with the Landsat data, helping them identify patterns and correlations.
+## 3. Data Retrieval: 
+After the overpass, users can quickly access the Landsat SR data captured for their selected location. The data will be displayed on the platform with options for downloading it in formats suitable for further analysis.
+
+## 4. Visualization and Comparison Tools: 
+The platform will include tools for visualizing the Landsat SR data, such as spectral graphs and layered map views. Users can upload their ground-based measurements for direct comparison with the Landsat data, helping them identify patterns and correlations.
 
 # Technologies and Tools:
 Frontend: React.js for an interactive user interface with a dynamic map and location input feature.
